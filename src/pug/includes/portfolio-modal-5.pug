@@ -9,18 +9,34 @@
                     .row.justify-content-center
                         .col-lg-8
                             // Portfolio Modal - Title
-                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Bubble Machine Capstone Project
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Bubble Machine MENG Capstone Project
                             // Icon Divider
                             .divider-custom
                                 .divider-custom-line
                                 .divider-custom-icon
-
                                 .divider-custom-line
-                            // Portfolio Modal - Image
-                            img.img-fluid.rounded.mb-5.modal-img(src='assets/img/portfolio/safe.png', alt='...')
                             // Portfolio Modal - Text
+                            p.mb-2 My MENG masters Capstone team project was the full design and analysis of a marketable Bubble Machine.
+                            img.img-fluid.rounded.mb-5.modal-img(src='assets/img/portfolio/bubblemachine.jpg', alt='...')
                             p.mb-4
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                | Our team has partnered with the toy company Move2Play to design interactive toys that encourage children to play with each other and the world around them. Move2Play is specifically aiming to enter the bubble toy market as it is one of the most popular toy markets on the Amazon storefront. Playing with bubbles has also been linked to children participating in more explorative and creative play, meaning that a bubble toy would perfectly fit Move2Play’s mission of inspiring active play. After analyzing the market, we have identified an untapped niche - large bubbles. Most current bubble toys create bubbles with a few centimeters diameter, and Move2Play believes that blowing significantly larger bubbles will help differentiate their product from others on the storefront.
+                            p.mb-4
+                                | Link to final paper: 
+                                a(href='assets/img/portfolio/Move 2 play capstone Final Paper.docx', target='_blank') Move 2 play capstone Final Paper.docx
+                            p.mb-4
+                                | When approaching the design of our product the team used an iterative process of design. This process moved through three stages: sketch models, component optimization, and final production. The sketch model phase involved performing teardowns of competing products, rapid prototyping of potential concepts, and selection of a general design framework. Once a design was settled on, the team developed an adjustable prototype that allowed us to optimize the key dimensions and designs of our toy. The team examined the optimal bubble launch angle, fan design, nozzle dimensions, and wand design using both analytical and experimental methods to find specifications that met our design requirements. Finally, once all variables were solidified the team constructed a final prototype that was miniaturized to fit inside of a character chosen to appeal to the young age demographic of the toy.
+                            p.mb-4
+                                | I designed a custom fan optimized to achieve more efficient flow, therefore reducing noise and power consumption and drastically lowering the overall cost. The goal of the fan design was to create an impeller and housing volute that can easily be injection molded and operated with a cheap DC motor. By using Bernoulli's equation and fan design empirically determined knowledge I was able to design a fan that easily met our requirements.
+                            img.img-fluid.rounded.mb-5.modal-img(src='assets/img/portfolio/bubbletest.jpg', alt='...')
+                            p.mb-4
+                                | Our prototype was analyzed using image processing and playtesting to validate our design and confirm that larger bubbles did increase kids’ enjoyment of the toy. When analyzing bubble size we found that our design’s bubbles had an average diameter of 8.7 cm in comparison to the 3.05 cm and 1.81 cm diameters produced by competing toys. Additionally, children remained engaged with our toy for ~25 minutes each play session compared to ~20 minutes with the competing toy. These results validate our design and confirm that we did not only surpass our metrics of success, but the toy is desirable to our target markets.
+                            p.mb-4
+                                | Our prototype was analyzed using image processing and playtesting to validate our design and confirm that larger bubbles did increase kids’ enjoyment of the toy. When analyzing bubble size we found that our design’s bubbles had an average diameter of 8.7 cm in comparison to the 3.05 cm and 1.81 cm diameters produced by competing toys. Additionally, children remained engaged with our toy for ~25 minutes each play session compared to ~20 minutes with the competing toy. These results validate our design and confirm that we did not only surpass our metrics of success, but the toy is desirable to our target markets. Here is one of the final prototypes
+                            // Replace GIF with video (ensure bubbles1.mp4 / bubbles1.webm are added to src/assets/videos)
+                            video.img-fluid.rounded.mb-5.modal-img(controls, loop, muted, playsinline)
+                                source(src='assets/img/portfolio/bubbles1.mp4', type='video/mp4')
+                                source(src='assets/img/portfolio/bubbles1.webm', type='video/webm')
+                                | Your browser does not support the video tag.
                             button.btn.btn-primary(data-bs-dismiss='modal')
                                 i.fas.fa-xmark.fa-fw
                                 | Close Window
